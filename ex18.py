@@ -7,4 +7,16 @@ def print_two(*args):
 def print_two_again(arg1, arg2):
     print "arg1: %r, arg2: %r" %(arg1, arg2)
 
-# this 
+# this just takes one argument
+def print_one(arg1):
+    print "arg1: %r" % arg1
+
+# this one takes no argtments
+def print_once():
+    print "I got nothin'."
+
+
+print_two("AwThink","Shaw")
+print_two_again("AwThink","Shaw")
+print_one("First!")
+print_once()
